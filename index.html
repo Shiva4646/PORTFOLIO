@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#intro-section">Home</a>
+        <a href="#skills-section">Skills</a>
+        <a href="#education-section">Education</a>
+        <a href="#contact-section">Contact</a>
+    </nav>
+
+    <!-- Intro & Hero Section -->
+    <section class="background" id="intro-section">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <img src="./img/profile1.jpg" class="profile img-fluid" alt="profile" width="300" height="300">
+                </div>
+                <div class="col-lg-6 order-lg-1 intro-text">
+                    <h1>Hello, I'm Shiva!</h1>
+                    <p>An aspiring web developer seeking to expand skills in front-end and back-end technologies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills-section">
+        <h4 class="fst-italic heading text-center">SKILLS</h4>
+        <div class="skills-list">
+            <div class="skill-item">
+                <img src="./img/coding.gif" alt="Coding">
+                <h6>Coding</h6>
+                <p>I have gained a wealth of problem-solving experience in various programming languages.</p>
+            </div>
+            <div class="skill-item">
+                <img src="./img/web dev.png" alt="Web Development">
+                <h6>Web Development</h6>
+                <p>Proficient in HTML, CSS, and JavaScript, creating interactive front-end interfaces.</p>
+            </div>
+            <div class="skill-item">
+                <img src="./img/teamwork.png" alt="Teamwork">
+                <h6>Teamwork</h6>
+                <p>Effective in collaborating with diverse teams to achieve shared goals.</p>
+            </div>
+        </div>
+    </section>
+
+   <!-- Education Section -->
+<section id="education-section">
+    <h2 class="text-center mb-4">Education</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <h4>Graduated School</h4>
+            <p>Completed schooling in 2023.</p>
+        </div>
+        <div class="timeline-item">
+            <h4>Web Development Bootcamp</h4>
+            <p>Attended a 12-week full-stack development bootcamp.</p>
+        </div>
+        <div class="timeline-item">
+            <h4>Google Project IDX Program</h4>
+            <p>Currently part of the Google Project IDX initiative, working on web development projects.</p>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Contact Section -->
+<section id="contact-section" class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6 text-center mb-4">
+                <h2 class="mb-3">Contact Me</h2>
+                <p class="lead">If you're passionate about programming like I am, let's connect and collaborate!</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <form action="/submit_form" method="POST" class="p-4 rounded shadow-sm bg-light">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea id="message" class="form-control" rows="4" placeholder="Write your message" required></textarea>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+        <h5>Connect with me:</h5>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/shiva4/" target="_blank" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="32" height="32" fill="currentColor">
+                    <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.83 0 53.69A53.8 53.8 0 01107.59 0c0 29.87-24.1 53.69-53.8 53.69zM447.8 448h-92.68V302.4c0-34.7-.7-79.29-48.34-79.29-48.36 0-55.74 37.81-55.74 76.95V448h-92.69V148.9h88.94v40.8h1.28c12.4-23.49 42.58-48.35 87.59-48.35 93.69 0 111 61.65 111 141.85V448z"/>
+                </svg>
+                LinkedIn
+            </a>
+            <a href="https://www.facebook.com/your-profile" target="_blank" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="32" height="32" fill="currentColor">
+                    <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06H293V6.26S267.35 0 240.17 0c-73.22 0-120.29 44.38-120.29 124.72V195.3H32v92.66h87.88V512h107.2V288z"/>
+                </svg>
+                Facebook
+            </a>
+            <a href="https://wa.me/your-phone-number" target="_blank" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="32" height="32" fill="currentColor">
+                    <path d="M380.9 97.1C339-21.9 210.5-16.9 118.6 75c-91.9 91.9-97 220.4-19.9 298.5L7.4 504c-9.1 9.2 1.7 20.2 10.7 11.1l129.8-129.7c78.1 77.1 206.7 72 298.5-19.9 91.9-91.9 97-220.4 19.9-298.5zM262.5 371.4c-40.3-4.1-79.2-33.9-102.1-72.7l-.5-.5c-19.2-30.7-17.9-48.5-17.9-48.5s1.5-6.1-2-9.7l-15.4-15.4c-3.5-3.5-9.1-3.9-13.2-.6 0 0-12.7 11.5-12.7 22.6 0 0-1.8 54.9 55.7 112.4 56.7 56.7 112.4 55.7 112.4 55.7 11.2 0 22.6-12.7 22.6-12.7 3.3-4.1 3-9.7-.6-13.2l-15.4-15.4c-3.6-3.5-9.6-2-9.6-2s-18 1.1-48.7-17.4z"/>
+                </svg>
+                WhatsApp
+            </a>
+        </div>
+        <p class="mt-3">&copy; 2024 Shiva</p>
+    </div>
+</footer>
+
+
+
+
+
+
+
